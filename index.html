@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thota Deekshitha - Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Thota Deekshitha</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Thota Deekshitha</h1>
+            <h2>Data Analytics Professional</h2>
+            <p>Transforming data into actionable business insights with SQL, Python, and Business Intelligence</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="resume.pdf" download class="btn-secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Detail-oriented and results-driven data professional with experience in business intelligence, seller operations, and analytics at Amazon. Currently serving as SPS Associate, I specialize in transforming raw data into actionable insights through advanced SQL queries, Python analytics, and interactive dashboards.</p>
+                    <p>My expertise spans data pipeline development, predictive modeling, and workflow optimization, with a proven track record of reducing turnaround times and enhancing operational efficiency through data-driven solutions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Major Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>85%</h3>
+                        <p>Model Accuracy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java (Basic)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Analysis</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Business Intelligence</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Excel (Advanced)</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Analytics & ML</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">A/B Testing</span>
+                        <span class="skill-tag">Predictive Modeling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>SPS Associate</h3>
+                    <span class="company">Amazon, Maharashtra</span>
+                    <span class="duration">July 2024 - Present</span>
+                </div>
+                <ul class="experience-details">
+                    <li>Delivered actionable insights by analyzing seller performance and key metrics using Excel dashboards and SQL queries</li>
+                    <li>Improved workflow efficiency and reduced turnaround time by identifying and addressing process inefficiencies</li>
+                    <li>Automated repetitive reporting tasks using Excel macros and SQL scripts, enhancing accuracy and productivity</li>
+                    <li>Conducted root cause analysis using structured RCA and Pareto principles to resolve recurring issues</li>
+                    <li>Enabled strategic initiatives with data reports and business recommendations to improve seller outcomes</li>
+                    <li>Collaborated with cross-functional teams to drive data-backed decisions across seller operations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openModal('project1')">
+                    <h3>Revenue Loss Analysis in Mobility Companies</h3>
+                    <p>End-to-end solution analyzing driver cancellation patterns with 85% prediction accuracy</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Power BI</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openModal('project2')">
+                    <h3>eCommerce Return Rate Optimization</h3>
+                    <p>Predictive modeling reducing return volume by 15% and analysis time by 25%</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Matplotlib</span>
+                        <span>Seaborn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:deekshithathota6@gmail.com">deekshithathota6@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/thotadeekshitha/" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>7989976367</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1')">&times;</span>
+            <h2>Revenue Loss Analysis in Mobility Companies</h2>
+            <div class="modal-body">
+                <h3>Problem Statement</h3>
+                <p>Mobility companies face significant revenue losses due to driver cancellations and trip inefficiencies. The challenge was to identify patterns and predict high-risk scenarios to minimize revenue impact.</p>
+                
+                <h3>Approach & Methodology</h3>
+                <ul>
+                    <li>Conducted comprehensive analysis of driver cancellation patterns using SQL data extraction</li>
+                    <li>Applied feature engineering to identify key variables affecting cancellation rates</li>
+                    <li>Developed logistic regression models for risk prediction</li>
+                    <li>Created real-time Power BI dashboard for strategic decision-making</li>
+                </ul>
+                
+                <h3>Key Results</h3>
+                <ul>
+                    <li><strong>85% prediction accuracy</strong> for high-risk cancellation scenarios</li>
+                    <li>Enabled <strong>real-time visualization</strong> through Power BI integration</li>
+                    <li>Supported <strong>strategic pricing decisions</strong> with data-driven insights</li>
+                    <li>Reduced revenue loss through proactive intervention strategies</li>
+                </ul>
+
+                <h3>Technologies Used</h3>
+                <p>Python, SQL, Logistic Regression, Power BI, Data Visualization</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2')">&times;</span>
+            <h2>eCommerce Return Rate Optimization</h2>
+            <div class="modal-body">
+                <h3>Problem Statement</h3>
+                <p>High return rates in eCommerce operations impact profitability and operational efficiency. The goal was to identify return patterns and build predictive models to reduce return volumes.</p>
+                
+                <h3>Approach & Methodology</h3>
+                <ul>
+                    <li>Explored return patterns using advanced SQL queries and data analysis</li>
+                    <li>Visualized trends using Python libraries (Matplotlib, Seaborn)</li>
+                    <li>Built predictive models to estimate return likelihood</li>
+                    <li>Automated data pipelines for continuous monitoring</li>
+                </ul>
+                
+                <h3>Key Results</h3>
+                <ul>
+                    <li><strong>15% reduction</strong> in return volume through predictive interventions</li>
+                    <li><strong>25% reduction</strong> in manual analysis time through automation</li>
+                    <li>Streamlined data pipelines for real-time monitoring</li>
+                    <li>Enhanced operational efficiency through data-driven insights</li>
+                </ul>
+
+                <h3>Technologies Used</h3>
+                <p>Python, SQL, Matplotlib, Seaborn, Predictive Modeling, Data Pipeline Automation</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
